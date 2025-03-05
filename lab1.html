@@ -10,6 +10,7 @@
             padding: 0;
         }
 	/* I took this part from chatgpt when i wanted to create a demo website to help me in real lab*/
+	/* I took this code from deep seek using hcan you Implement a feature where pressing the 'H' key hides all HTML forms on the website, and*/
 	body{
 		background-image : url("araba.gif");
 		background-repeat : no-repeat;
@@ -104,7 +105,17 @@
                 border-radius: 50%;
                 position: relative;
 	}
-
+	.clock {
+            font-family: 'Platinum', serif;
+            font-size: 24px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            border-radius: 10px;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
 	.light {
             width: 45px;
             height: 45px;
@@ -114,6 +125,7 @@
             bottom: 0;
             animation: bounce 2s infinite ease-in-out;
         }
+	
 	.traffic-light-container {
             width: 225px;
             height: 15px;
@@ -209,13 +221,14 @@
 	<div class="traffic-light-container">
 	<div class="light"></div>
 	</div>
+	<div class="clock" id="clock">12:00:00 PM</div>
 	<!--<div>-->
 	<h1>DAYTONA 500</h1>
 	<!--</div>-->
 	
 	<!--</body>
 	<body style="align-items: center">-->
-	<div style=": center"; class="container">
+	<div id="formContainer"; div style=": center"; class="container"> 
         <h3>RACER</h3>
 	<h3 style="color: yellow";font-family="Platinum.ttf">LOGIN</h3>
 	<h3 style="color: green";font-family="Platinum.ttf">PAGE</h3>
@@ -240,6 +253,40 @@
 	</div>
 	</div>
 	</div>
+	<script>
+	/* I took this code from deep seek using how can i add a live clock on my login page prompt*/
+        function updateClock() {
+            const now = new Date(); // Get current time
+            const hours = now.getHours().toString().padStart(2, '0'); // Format hours
+            const minutes = now.getMinutes().toString().padStart(2, '0'); // Format minutes
+            const seconds = now.getSeconds().toString().padStart(2, '0'); // Format seconds
+            const ampm = hours >= 12 ? 'PM' : 'AM'; // Determine AM/PM
 
+            // Convert to 12-hour format
+            const formattedHours = (hours % 12 || 12).toString().padStart(2, '0');
+
+            // Update the clock text
+            const clockElement = document.getElementById('clock');
+            clockElement.textContent = `${formattedHours}:${minutes}:${seconds} ${ampm}`;
+        }
+
+        // Update the clock every second
+        setInterval(updateClock, 1000);
+
+        // Initialize the clock immediately
+        updateClock();
+    </script>
+   <script>
+        const formContainer = document.getElementById('formContainer');
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'h' || event.key === 'H') {
+                if (formContainer.style.display === 'none') {
+                    formContainer.style.display = 'block';
+                } else {
+                    formContainer.style.display = 'none';
+                }
+            }
+        });
+    </script>
 	</body>
 </html>
