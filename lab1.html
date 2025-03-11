@@ -232,9 +232,9 @@
         <h3>RACER</h3>
 	<h3 style="color: yellow";font-family="Platinum.ttf">LOGIN</h3>
 	<h3 style="color: green";font-family="Platinum.ttf">PAGE</h3>
-        <input type="text" placeholder="Username">
-        <input type="password" placeholder="Password">
-	<button class="login">LOGIN</button>
+        <input type="text" placeholder="Username" id="kullaniciadi">
+        <input type="password" placeholder="Password" id="sifre">
+	<button class="login" id="dugme">LOGIN</button>
 	</div>
 	<div class="tire">
 	<div class="inner">
@@ -288,5 +288,19 @@
             }
         });
     </script>
+	<script>
+	var buton=document.getElementById("dugme");
+	let ad=document.getElementById("kullaniciadi");
+	let parola=document.getElementById("sifre");
+	buton.addEventListener("click",ekle);
+	var girisler=[];
+	function ekle(){
+		var giris={Kullanici_adi:ad.value,Parolasi:parola.value};
+		girisler.push(giris);
+		console.log("Yapilan tum girisler");
+		console.log(girisler);	
+	}
+	
+	</script>
 	</body>
 </html>
