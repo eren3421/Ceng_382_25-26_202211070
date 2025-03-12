@@ -295,12 +295,20 @@
 	buton.addEventListener("click",ekle);
 	var girisler=[];
 	function ekle(){
-		var giris={Kullanici_adi:ad.value,Parolasi:parola.value};
-		girisler.push(giris);
-		console.log("Yapilan tum girisler");
-		console.log(girisler);	
+		/*var giris={Kullanici_adi:ad.value,Parolasi:parola.value};*/
+		/*girisler.push(giris);*/
+		/*console.log("Yapilan tum girisler");*/
+		/*console.log(girisler);*/
+		var girisadi="admin";
+		var girissifre="admin";
+		if (ad.value === girisadi && parola.value === girissifre) {
+            // Redirect to a new page (replace 'newpage.html' with your desired page)
+            		window.location.href = "table.html";
+       	 	} 
+		else {
+            		alert('Geçersiz kullanıcıadı veya parola.');
+        	}	
 	}
-	
 	</script>
 	</body>
 </html>
