@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eU9rm0ko7s/jcaRJ2IuLXvU2HlBH3wnOFhgGeb+Khwk=",
+  "Hash": "8VFeVBXctfI04Qy3dRDs45cgOQIgJh7ke6zlKQVjy1k=",
   "Source": "Ceng382Week5",
   "BasePath": "_content/Ceng382Week5",
   "Mode": "Default",
@@ -605,27 +605,6 @@
       "OriginalItemSpec": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\obj\\Debug\\net9.0\\compressed\\b27tlcgp9q-61n19gt1b8.gz",
-      "SourceId": "Ceng382Week5",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/Ceng382Week5",
-      "RelativePath": "favicon#[.{fingerprint=61n19gt1b8}]?.ico.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\favicon.ico",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "nezsohjtde",
-      "Integrity": "wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\favicon.ico"
-    },
-    {
       "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\obj\\Debug\\net9.0\\compressed\\b8gee24qqe-493y06b0oq.gz",
       "SourceId": "Ceng382Week5",
       "SourceType": "Discovered",
@@ -1109,6 +1088,27 @@
       "OriginalItemSpec": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\obj\\Debug\\net9.0\\compressed\\s2th9ywpb7-devepoo3hg.gz",
+      "SourceId": "Ceng382Week5",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Ceng382Week5",
+      "RelativePath": "assets/favicon#[.{fingerprint=devepoo3hg}]?.ico.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\favicon.ico",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "cxy5d4bo97",
+      "Integrity": "8FKDW6r/m2bOZzkWUrDKO4H6U8g+j719fLbhAyMpNeM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\favicon.ico"
+    },
+    {
       "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\obj\\Debug\\net9.0\\compressed\\sra26e7lkz-erw9l3u2r3.gz",
       "SourceId": "Ceng382Week5",
       "SourceType": "Discovered",
@@ -1403,6 +1403,300 @@
       "OriginalItemSpec": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Ceng382Week5.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\favicon.ico",
+      "SourceId": "Ceng382Week5",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\",
+      "BasePath": "_content/Ceng382Week5",
+      "RelativePath": "assets/favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "devepoo3hg",
+      "Integrity": "ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\bg-masthead.jpg",
+      "SourceId": "Ceng382Week5",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\",
+      "BasePath": "_content/Ceng382Week5",
+      "RelativePath": "assets/img/bg-masthead#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a88cmoowx1",
+      "Integrity": "VpUtM53BBrXILEop0QyNPlTcIiLkZuzjJ7iFI6rC3Rk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\bg-masthead.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\fullsize\\1.jpg",
+      "SourceId": "Ceng382Week5",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\",
+      "BasePath": "_content/Ceng382Week5",
+      "RelativePath": "assets/img/portfolio/fullsize/1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0wh4fdkmht",
+      "Integrity": "kLY5m+wmGfZjvsIGAcFNZeKmUX6owA0j8BCb4sZv6zM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\fullsize\\1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\fullsize\\2.jpg",
+      "SourceId": "Ceng382Week5",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\",
+      "BasePath": "_content/Ceng382Week5",
+      "RelativePath": "assets/img/portfolio/fullsize/2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0ug3x2n529",
+      "Integrity": "+DD9/CIb/GNr2wO6OkC2V5ro5GV5zOrkmBR74Ue32IA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\fullsize\\2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\fullsize\\3.jpg",
+      "SourceId": "Ceng382Week5",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\",
+      "BasePath": "_content/Ceng382Week5",
+      "RelativePath": "assets/img/portfolio/fullsize/3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lklao9ehuv",
+      "Integrity": "tYfNq9V6aCURX0BVFGW70SuYEpBqLooMj+XjCz1Gjs8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\fullsize\\3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\fullsize\\4.jpg",
+      "SourceId": "Ceng382Week5",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\",
+      "BasePath": "_content/Ceng382Week5",
+      "RelativePath": "assets/img/portfolio/fullsize/4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x3jrhpp61x",
+      "Integrity": "g6HLOM+8xy67YFueLSOEpu8VAwlTNYJ1Iql2Nm7TFvI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\fullsize\\4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\fullsize\\5.jpg",
+      "SourceId": "Ceng382Week5",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\",
+      "BasePath": "_content/Ceng382Week5",
+      "RelativePath": "assets/img/portfolio/fullsize/5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5364a8puc5",
+      "Integrity": "L46zUntMCcygz/2FYmbI2mcIVloxhIU1Kwx2wOYsJyA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\fullsize\\5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\fullsize\\6.jpg",
+      "SourceId": "Ceng382Week5",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\",
+      "BasePath": "_content/Ceng382Week5",
+      "RelativePath": "assets/img/portfolio/fullsize/6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "33lyq9667x",
+      "Integrity": "wWICxZRdbF3CYxQ3GI41zTCbZftKLcY5uNBgI/ugCms=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\fullsize\\6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\thumbnails\\1.jpg",
+      "SourceId": "Ceng382Week5",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\",
+      "BasePath": "_content/Ceng382Week5",
+      "RelativePath": "assets/img/portfolio/thumbnails/1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0wh4fdkmht",
+      "Integrity": "kLY5m+wmGfZjvsIGAcFNZeKmUX6owA0j8BCb4sZv6zM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\thumbnails\\1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\thumbnails\\2.jpg",
+      "SourceId": "Ceng382Week5",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\",
+      "BasePath": "_content/Ceng382Week5",
+      "RelativePath": "assets/img/portfolio/thumbnails/2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0ug3x2n529",
+      "Integrity": "+DD9/CIb/GNr2wO6OkC2V5ro5GV5zOrkmBR74Ue32IA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\thumbnails\\2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\thumbnails\\3.jpg",
+      "SourceId": "Ceng382Week5",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\",
+      "BasePath": "_content/Ceng382Week5",
+      "RelativePath": "assets/img/portfolio/thumbnails/3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lklao9ehuv",
+      "Integrity": "tYfNq9V6aCURX0BVFGW70SuYEpBqLooMj+XjCz1Gjs8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\thumbnails\\3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\thumbnails\\4.jpg",
+      "SourceId": "Ceng382Week5",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\",
+      "BasePath": "_content/Ceng382Week5",
+      "RelativePath": "assets/img/portfolio/thumbnails/4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x3jrhpp61x",
+      "Integrity": "g6HLOM+8xy67YFueLSOEpu8VAwlTNYJ1Iql2Nm7TFvI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\thumbnails\\4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\thumbnails\\5.jpg",
+      "SourceId": "Ceng382Week5",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\",
+      "BasePath": "_content/Ceng382Week5",
+      "RelativePath": "assets/img/portfolio/thumbnails/5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5364a8puc5",
+      "Integrity": "L46zUntMCcygz/2FYmbI2mcIVloxhIU1Kwx2wOYsJyA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\thumbnails\\5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\thumbnails\\6.jpg",
+      "SourceId": "Ceng382Week5",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\",
+      "BasePath": "_content/Ceng382Week5",
+      "RelativePath": "assets/img/portfolio/thumbnails/6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "33lyq9667x",
+      "Integrity": "wWICxZRdbF3CYxQ3GI41zTCbZftKLcY5uNBgI/ugCms=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\thumbnails\\6.jpg"
+    },
+    {
       "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\css\\site.css",
       "SourceId": "Ceng382Week5",
       "SourceType": "Discovered",
@@ -1422,27 +1716,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\favicon.ico",
-      "SourceId": "Ceng382Week5",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\",
-      "BasePath": "_content/Ceng382Week5",
-      "RelativePath": "favicon#[.{fingerprint}]?.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "61n19gt1b8",
-      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
       "Identity": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\js\\site.js",
@@ -2728,6 +3001,1370 @@
   ],
   "Endpoints": [
     {
+      "Route": "assets/favicon.devepoo3hg.ico",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\obj\\Debug\\net9.0\\compressed\\s2th9ywpb7-devepoo3hg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000490677134"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2037"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8FKDW6r/m2bOZzkWUrDKO4H6U8g+j719fLbhAyMpNeM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "devepoo3hg"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicon.devepoo3hg.ico",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23462"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "devepoo3hg"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicon.devepoo3hg.ico.gz",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\obj\\Debug\\net9.0\\compressed\\s2th9ywpb7-devepoo3hg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2037"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8FKDW6r/m2bOZzkWUrDKO4H6U8g+j719fLbhAyMpNeM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "devepoo3hg"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicon.ico.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8FKDW6r/m2bOZzkWUrDKO4H6U8g+j719fLbhAyMpNeM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicon.ico",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\obj\\Debug\\net9.0\\compressed\\s2th9ywpb7-devepoo3hg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000490677134"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2037"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8FKDW6r/m2bOZzkWUrDKO4H6U8g+j719fLbhAyMpNeM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicon.ico",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23462"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicon.ico.gz",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\obj\\Debug\\net9.0\\compressed\\s2th9ywpb7-devepoo3hg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2037"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8FKDW6r/m2bOZzkWUrDKO4H6U8g+j719fLbhAyMpNeM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8FKDW6r/m2bOZzkWUrDKO4H6U8g+j719fLbhAyMpNeM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/bg-masthead.a88cmoowx1.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\bg-masthead.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "518561"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VpUtM53BBrXILEop0QyNPlTcIiLkZuzjJ7iFI6rC3Rk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a88cmoowx1"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/bg-masthead.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VpUtM53BBrXILEop0QyNPlTcIiLkZuzjJ7iFI6rC3Rk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/bg-masthead.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\bg-masthead.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "518561"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VpUtM53BBrXILEop0QyNPlTcIiLkZuzjJ7iFI6rC3Rk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VpUtM53BBrXILEop0QyNPlTcIiLkZuzjJ7iFI6rC3Rk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/fullsize/1.0wh4fdkmht.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\fullsize\\1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63788"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kLY5m+wmGfZjvsIGAcFNZeKmUX6owA0j8BCb4sZv6zM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0wh4fdkmht"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/portfolio/fullsize/1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kLY5m+wmGfZjvsIGAcFNZeKmUX6owA0j8BCb4sZv6zM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/fullsize/1.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\fullsize\\1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63788"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kLY5m+wmGfZjvsIGAcFNZeKmUX6owA0j8BCb4sZv6zM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kLY5m+wmGfZjvsIGAcFNZeKmUX6owA0j8BCb4sZv6zM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/fullsize/2.0ug3x2n529.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\fullsize\\2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+DD9/CIb/GNr2wO6OkC2V5ro5GV5zOrkmBR74Ue32IA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0ug3x2n529"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/portfolio/fullsize/2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+DD9/CIb/GNr2wO6OkC2V5ro5GV5zOrkmBR74Ue32IA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/fullsize/2.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\fullsize\\2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+DD9/CIb/GNr2wO6OkC2V5ro5GV5zOrkmBR74Ue32IA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+DD9/CIb/GNr2wO6OkC2V5ro5GV5zOrkmBR74Ue32IA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/fullsize/3.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\fullsize\\3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tYfNq9V6aCURX0BVFGW70SuYEpBqLooMj+XjCz1Gjs8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tYfNq9V6aCURX0BVFGW70SuYEpBqLooMj+XjCz1Gjs8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/fullsize/3.lklao9ehuv.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\fullsize\\3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tYfNq9V6aCURX0BVFGW70SuYEpBqLooMj+XjCz1Gjs8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lklao9ehuv"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/portfolio/fullsize/3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tYfNq9V6aCURX0BVFGW70SuYEpBqLooMj+XjCz1Gjs8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/fullsize/4.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\fullsize\\4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g6HLOM+8xy67YFueLSOEpu8VAwlTNYJ1Iql2Nm7TFvI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g6HLOM+8xy67YFueLSOEpu8VAwlTNYJ1Iql2Nm7TFvI="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/fullsize/4.x3jrhpp61x.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\fullsize\\4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g6HLOM+8xy67YFueLSOEpu8VAwlTNYJ1Iql2Nm7TFvI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x3jrhpp61x"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/portfolio/fullsize/4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g6HLOM+8xy67YFueLSOEpu8VAwlTNYJ1Iql2Nm7TFvI="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/fullsize/5.5364a8puc5.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\fullsize\\5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L46zUntMCcygz/2FYmbI2mcIVloxhIU1Kwx2wOYsJyA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5364a8puc5"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/portfolio/fullsize/5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L46zUntMCcygz/2FYmbI2mcIVloxhIU1Kwx2wOYsJyA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/fullsize/5.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\fullsize\\5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L46zUntMCcygz/2FYmbI2mcIVloxhIU1Kwx2wOYsJyA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L46zUntMCcygz/2FYmbI2mcIVloxhIU1Kwx2wOYsJyA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/fullsize/6.33lyq9667x.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\fullsize\\6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53428"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wWICxZRdbF3CYxQ3GI41zTCbZftKLcY5uNBgI/ugCms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "33lyq9667x"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/portfolio/fullsize/6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wWICxZRdbF3CYxQ3GI41zTCbZftKLcY5uNBgI/ugCms="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/fullsize/6.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\fullsize\\6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53428"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wWICxZRdbF3CYxQ3GI41zTCbZftKLcY5uNBgI/ugCms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wWICxZRdbF3CYxQ3GI41zTCbZftKLcY5uNBgI/ugCms="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/thumbnails/1.0wh4fdkmht.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\thumbnails\\1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63788"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kLY5m+wmGfZjvsIGAcFNZeKmUX6owA0j8BCb4sZv6zM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0wh4fdkmht"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/portfolio/thumbnails/1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kLY5m+wmGfZjvsIGAcFNZeKmUX6owA0j8BCb4sZv6zM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/thumbnails/1.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\thumbnails\\1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63788"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kLY5m+wmGfZjvsIGAcFNZeKmUX6owA0j8BCb4sZv6zM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kLY5m+wmGfZjvsIGAcFNZeKmUX6owA0j8BCb4sZv6zM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/thumbnails/2.0ug3x2n529.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\thumbnails\\2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+DD9/CIb/GNr2wO6OkC2V5ro5GV5zOrkmBR74Ue32IA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0ug3x2n529"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/portfolio/thumbnails/2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+DD9/CIb/GNr2wO6OkC2V5ro5GV5zOrkmBR74Ue32IA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/thumbnails/2.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\thumbnails\\2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+DD9/CIb/GNr2wO6OkC2V5ro5GV5zOrkmBR74Ue32IA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+DD9/CIb/GNr2wO6OkC2V5ro5GV5zOrkmBR74Ue32IA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/thumbnails/3.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\thumbnails\\3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tYfNq9V6aCURX0BVFGW70SuYEpBqLooMj+XjCz1Gjs8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tYfNq9V6aCURX0BVFGW70SuYEpBqLooMj+XjCz1Gjs8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/thumbnails/3.lklao9ehuv.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\thumbnails\\3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tYfNq9V6aCURX0BVFGW70SuYEpBqLooMj+XjCz1Gjs8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lklao9ehuv"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/portfolio/thumbnails/3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tYfNq9V6aCURX0BVFGW70SuYEpBqLooMj+XjCz1Gjs8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/thumbnails/4.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\thumbnails\\4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g6HLOM+8xy67YFueLSOEpu8VAwlTNYJ1Iql2Nm7TFvI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g6HLOM+8xy67YFueLSOEpu8VAwlTNYJ1Iql2Nm7TFvI="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/thumbnails/4.x3jrhpp61x.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\thumbnails\\4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g6HLOM+8xy67YFueLSOEpu8VAwlTNYJ1Iql2Nm7TFvI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x3jrhpp61x"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/portfolio/thumbnails/4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g6HLOM+8xy67YFueLSOEpu8VAwlTNYJ1Iql2Nm7TFvI="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/thumbnails/5.5364a8puc5.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\thumbnails\\5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L46zUntMCcygz/2FYmbI2mcIVloxhIU1Kwx2wOYsJyA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5364a8puc5"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/portfolio/thumbnails/5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L46zUntMCcygz/2FYmbI2mcIVloxhIU1Kwx2wOYsJyA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/thumbnails/5.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\thumbnails\\5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L46zUntMCcygz/2FYmbI2mcIVloxhIU1Kwx2wOYsJyA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L46zUntMCcygz/2FYmbI2mcIVloxhIU1Kwx2wOYsJyA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/thumbnails/6.33lyq9667x.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\thumbnails\\6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53428"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wWICxZRdbF3CYxQ3GI41zTCbZftKLcY5uNBgI/ugCms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "33lyq9667x"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/portfolio/thumbnails/6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wWICxZRdbF3CYxQ3GI41zTCbZftKLcY5uNBgI/ugCms="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio/thumbnails/6.jpg",
+      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\assets\\img\\portfolio\\thumbnails\\6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53428"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wWICxZRdbF3CYxQ3GI41zTCbZftKLcY5uNBgI/ugCms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 21:46:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wWICxZRdbF3CYxQ3GI41zTCbZftKLcY5uNBgI/ugCms="
+        }
+      ]
+    },
+    {
       "Route": "Ceng382Week5.aw649iu0t4.bundle.scp.css",
       "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\obj\\Debug\\net9.0\\compressed\\h1emu13tst-aw649iu0t4.gz",
       "Selectors": [
@@ -3348,7 +4985,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Apr 2025 21:28:41 GMT"
+          "Value": "Thu, 03 Apr 2025 21:40:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3409,7 +5046,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Apr 2025 21:28:41 GMT"
+          "Value": "Thu, 03 Apr 2025 21:40:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3454,7 +5091,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Apr 2025 21:28:41 GMT"
+          "Value": "Thu, 03 Apr 2025 21:40:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3509,7 +5146,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Apr 2025 21:28:41 GMT"
+          "Value": "Thu, 03 Apr 2025 21:40:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3562,7 +5199,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Apr 2025 21:28:41 GMT"
+          "Value": "Thu, 03 Apr 2025 21:40:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3599,7 +5236,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Apr 2025 21:28:41 GMT"
+          "Value": "Thu, 03 Apr 2025 21:40:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3618,304 +5255,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\obj\\Debug\\net9.0\\compressed\\b27tlcgp9q-61n19gt1b8.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000405022276"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2468"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 03 Apr 2025 21:07:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "61n19gt1b8"
-        },
-        {
-          "Name": "label",
-          "Value": "favicon.ico"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\favicon.ico",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5430"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 03 Apr 2025 21:07:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "61n19gt1b8"
-        },
-        {
-          "Name": "label",
-          "Value": "favicon.ico"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.61n19gt1b8.ico.gz",
-      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\obj\\Debug\\net9.0\\compressed\\b27tlcgp9q-61n19gt1b8.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2468"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 03 Apr 2025 21:07:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "61n19gt1b8"
-        },
-        {
-          "Name": "label",
-          "Value": "favicon.ico.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\obj\\Debug\\net9.0\\compressed\\b27tlcgp9q-61n19gt1b8.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000405022276"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2468"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 03 Apr 2025 21:07:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\favicon.ico",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5430"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 03 Apr 2025 21:07:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.ico.gz",
-      "AssetFile": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\obj\\Debug\\net9.0\\compressed\\b27tlcgp9q-61n19gt1b8.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2468"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 03 Apr 2025 21:07:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
         }
       ]
     },
