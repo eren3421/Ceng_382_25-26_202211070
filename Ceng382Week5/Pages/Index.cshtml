@@ -61,11 +61,14 @@
                         <td>@item.ClassName</td>
                         <td>@item.StudentCount</td>
                         <td>@item.Description</td>
-                        <td>
-                            <a href="/?editId=@item.Id">EDIT</a>
+                        <td class="actions-cell">
+                            <a href="/?editId=@item.Id" class="action-icon edit-icon" title="Edit">✏️</a>
                             <form method="post" style="display:inline">
                                 <input type="hidden" name="id" value="@item.Id" />
-                                <button type="submit" name="handler" value="Delete">DELETE</button>
+                                <input type="hidden" name="handler" value="Delete" />
+                                <button type="submit" class="delete-btn" title="Delete">
+                                    <span class="action-icon delete-icon">🗑️</span>
+                                </button>
                             </form>
                         </td>
                     </tr>
@@ -74,3 +77,5 @@
         </table>
     </div>
 </div>
+<!-- I added emoji icons for delete and edit parts by asking deepseek can you add trash bin icon for delete and pen icon for edit  -->
+<!-- I generally rearranged this file by asking deepseek can you integrate my Index.cshtml file to my Class Information Model.  -->

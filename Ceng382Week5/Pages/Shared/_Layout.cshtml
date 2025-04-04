@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CLASS MANAGEMENT SYSTEM</title>
     <style>
-        /* Pure CSS styling - no JavaScript needed */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -81,9 +80,29 @@
         th {
             background-color: #f8f9fa;
         }
-        a {
-            color: #0d6efd;
+        /* Icon Styles */
+        .action-icon {
+            font-size: 1.2em;
+            margin: 0 5px;
+            color: #6c757d;
+            transition: color 0.3s;
             text-decoration: none;
+            display: inline-block;
+        }
+        .edit-icon:hover {
+            color: #ffc107;
+        }
+        .delete-btn {
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+        }
+        .delete-icon:hover {
+            color: #dc3545;
+        }
+        .actions-cell {
+            white-space: nowrap;
         }
     </style>
 </head>
@@ -105,3 +124,4 @@
     </div>
 </body>
 </html>
+<!--I created tables for my project asking deepseek "Can you create tables for listing Informations without using Javascript.-->

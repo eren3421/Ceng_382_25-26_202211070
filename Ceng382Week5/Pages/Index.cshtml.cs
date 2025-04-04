@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Collections.Generic;
 using System.Linq;
-
+// I rearrnaged the Index.cshtml.cs by asking deepseek can you integrate these codes to my Class Information Model.cs code.
 namespace Ceng382Week5.Pages
 {
     public class IndexModel : PageModel
