@@ -2,7 +2,7 @@
 @model IndexModel
 
 <div class="row">
-    <!-- Form Column -->
+    <!-- Form Column (Left) - Maintained from Week 5 -->
     <div class="col">
         <h2>@(Model.EditId > 0 ? "EDIT CLASS" : "ADD CLASS")</h2>
         <form method="post">
@@ -40,13 +40,32 @@
         </form>
     </div>
 
-    <!-- Table Column -->
+    <!-- Table Column (Right) - Updated for Week 6 -->
     <div class="col">
+        <!-- Filter Form (New for Week 6) -->
+        <form method="get" class="filter-form">
+            <div class="form-row">
+                <div class="col">
+                    <input type="text" name="filterClassName" value="@Model.FilterClassName" 
+                           placeholder="Filter by class name" class="form-control" />
+                </div>
+                <div class="col">
+                    <input type="number" name="filterStudentCount" value="@Model.FilterStudentCount" 
+                           placeholder="Filter by student count" class="form-control" />
+                </div>
+                <div class="col">
+                    <button type="submit" class="btn btn-filter">FILTER</button>
+                    <a href="/" class="btn btn-reset">RESET</a>
+                </div>
+            </div>
+        </form>
+
         <h2>CLASS LIST</h2>
-        <table>
+        
+        <!-- Updated Table (Using ClassInformationTable) -->
+        <table class="data-table">
             <thead>
                 <tr>
-                    <th>ID</th>
                     <th>CLASS NAME</th>
                     <th>STUDENTS</th>
                     <th>DESCRIPTION</th>
@@ -54,18 +73,22 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (var item in Model.ClassList)
+                @foreach (var item in Model.DisplayClasses)
                 {
                     <tr>
-                        <td>@item.Id</td>
+                        <!-- Note: ID column removed per Week 6 requirements -->
                         <td>@item.ClassName</td>
                         <td>@item.StudentCount</td>
                         <td>@item.Description</td>
                         <td class="actions-cell">
-                            <a href="/?editId=@item.Id" class="action-icon edit-icon" title="Edit">✏️</a>
+                            <a href="/?editId=@item.Id&currentPage=@Model.CurrentPage&filterClassName=@Model.FilterClassName&filterStudentCount=@Model.FilterStudentCount" 
+                               class="action-icon edit-icon" title="Edit">✏️</a>
                             <form method="post" style="display:inline">
                                 <input type="hidden" name="id" value="@item.Id" />
                                 <input type="hidden" name="handler" value="Delete" />
+                                <input type="hidden" name="currentPage" value="@Model.CurrentPage" />
+                                <input type="hidden" name="filterClassName" value="@Model.FilterClassName" />
+                                <input type="hidden" name="filterStudentCount" value="@Model.FilterStudentCount" />
                                 <button type="submit" class="delete-btn" title="Delete">
                                     <span class="action-icon delete-icon">🗑️</span>
                                 </button>
@@ -75,7 +98,105 @@
                 }
             </tbody>
         </table>
+
+        <!-- Pagination (New for Week 6) -->
+        @if (Model.TotalPages > 1)
+        {
+            <div class="pagination">
+                @if (Model.CurrentPage > 1)
+                {
+                    <a href="/?currentPage=@(Model.CurrentPage - 1)&filterClassName=@Model.FilterClassName&filterStudentCount=@Model.FilterStudentCount" 
+                       class="page-link">Previous</a>
+                }
+
+                @for (int i = 1; i <= Model.TotalPages; i++)
+                {
+                    <a href="/?currentPage=@i&filterClassName=@Model.FilterClassName&filterStudentCount=@Model.FilterStudentCount" 
+                       class="page-link @(i == Model.CurrentPage ? "active" : "")">@i</a>
+                }
+
+                @if (Model.CurrentPage < Model.TotalPages)
+                {
+                    <a href="/?currentPage=@(Model.CurrentPage + 1)&filterClassName=@Model.FilterClassName&filterStudentCount=@Model.FilterStudentCount" 
+                       class="page-link">Next</a>
+                }
+            </div>
+        }
     </div>
 </div>
-<!-- I added emoji icons for delete and edit parts by asking deepseek can you add trash bin icon for delete and pen icon for edit  -->
-<!-- I generally rearranged this file by asking deepseek can you integrate my Index.cshtml file to my Class Information Model.  -->
+
+<style>
+    /* Added styles for new Week 6 components */
+    .filter-form {
+        margin-bottom: 20px;
+        background: #f8f9fa;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    
+    .form-row {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .btn-filter {
+        background-color: #4CAF50;
+        color: white;
+    }
+    
+    .btn-reset {
+        background-color: #f44336;
+        color: white;
+    }
+    
+    .data-table {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .pagination {
+        display: flex;
+        gap: 5px;
+    }
+    
+    .page-link {
+        padding: 5px 10px;
+        border: 1px solid #ddd;
+        text-decoration: none;
+    }
+    
+    .page-link.active {
+        background-color: #0d6efd;
+        color: white;
+        border-color: #0d6efd;
+    }
+    
+    /* Maintained existing Week 5 styles */
+    .actions-cell {
+        white-space: nowrap;
+    }
+    
+    .action-icon {
+        font-size: 1.2em;
+        margin: 0 5px;
+        color: #6c757d;
+        transition: color 0.3s;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    .edit-icon:hover {
+        color: #ffc107;
+    }
+    
+    .delete-btn {
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+    }
+    
+    .delete-icon:hover {
+        color: #dc3545;
+    }
+</style>
