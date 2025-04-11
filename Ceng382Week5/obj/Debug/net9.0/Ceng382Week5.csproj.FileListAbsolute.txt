@@ -1,3 +1,11 @@
+C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\Ceng382Week5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\Ceng382Week5.AssemblyInfoInputs.cache
+C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\Ceng382Week5.AssemblyInfo.cs
+C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\Ceng382Week5.csproj.CoreCompileInputs.cache
+C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\Ceng382Week5.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\Ceng382Week5.RazorAssemblyInfo.cache
+C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\Ceng382Week5.RazorAssemblyInfo.cs
+C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\Ceng382Week5.sourcelink.json
 C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\bin\Debug\net9.0\appsettings.json
 C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\bin\Debug\net9.0\Ceng382Week5.staticwebassets.runtime.json
@@ -7,17 +15,11 @@ C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5
 C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\bin\Debug\net9.0\Ceng382Week5.runtimeconfig.json
 C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\bin\Debug\net9.0\Ceng382Week5.dll
 C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\bin\Debug\net9.0\Ceng382Week5.pdb
-C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\Ceng382Week5.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\Ceng382Week5.AssemblyInfoInputs.cache
-C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\Ceng382Week5.AssemblyInfo.cs
-C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\Ceng382Week5.csproj.CoreCompileInputs.cache
-C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\Ceng382Week5.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\Ceng382Week5.RazorAssemblyInfo.cache
-C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\Ceng382Week5.RazorAssemblyInfo.cs
-C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\Ceng382Week5.sourcelink.json
 C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\scopedcss\bundle\Ceng382Week5.styles.css
 C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\scopedcss\projectbundle\Ceng382Week5.bundle.scp.css
+C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\compressed\s2th9ywpb7-devepoo3hg.gz
+C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\compressed\jex93g5yg9-b9sayid5wm.gz
 C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\compressed\z3kxqrnahk-xtxxf3hu2r.gz
 C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\compressed\srfyepstrd-bqjiyaj88i.gz
 C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\compressed\m1622e2t04-c2jlpeoesf.gz
@@ -94,5 +96,3 @@ C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5
 C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\Ceng382Week5.pdb
 C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\Ceng382Week5.genruntimeconfig.cache
 C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\ref\Ceng382Week5.dll
-C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\compressed\jex93g5yg9-b9sayid5wm.gz
-C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\compressed\s2th9ywpb7-devepoo3hg.gz

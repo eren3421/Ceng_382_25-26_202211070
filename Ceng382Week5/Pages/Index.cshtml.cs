@@ -1,4 +1,3 @@
-// Pages/Index.cshtml.cs
 using Ceng382Week5.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -16,7 +15,7 @@ namespace Ceng382Week5.Pages
         // Filter properties
         [BindProperty(SupportsGet = true)]
         public string FilterClassName { get; set; }
-        
+
         [BindProperty(SupportsGet = true)]
         public int? FilterStudentCount { get; set; }
 
@@ -34,7 +33,7 @@ namespace Ceng382Week5.Pages
         public int EditId { get; set; }
 
         // Display properties
-        public List<ClassInformationModel> AllClasses => _classes;
+        public List<ClassInformationModel> AllClasses => _classes; // Use full list of classes
         public List<ClassInformationTable> FilteredClasses { get; set; }
         public List<ClassInformationTable> DisplayClasses { get; set; }
 
@@ -52,12 +51,23 @@ namespace Ceng382Week5.Pages
 
         public void OnGet()
         {
-            // Apply filters
+            ApplyFiltersAndPagination(); // Apply filters and pagination for displaying
+
+            // Only get class from full list, independent of filters, when editing
+            if (EditId > 0)
+            {
+                ClassInfo = AllClasses.FirstOrDefault(c => c.Id == EditId) ?? new ClassInformationModel();
+            }
+        }
+
+        private void ApplyFiltersAndPagination()
+        {
+            // Apply filters to the full class list for displaying in table
             FilteredClasses = AllClasses
                 .Where(c => string.IsNullOrEmpty(FilterClassName) || 
-                            c.ClassName.Contains(FilterClassName, StringComparison.OrdinalIgnoreCase))
+                           c.ClassName.Contains(FilterClassName, StringComparison.OrdinalIgnoreCase))
                 .Where(c => !FilterStudentCount.HasValue || 
-                            c.StudentCount == FilterStudentCount.Value)
+                           c.StudentCount == FilterStudentCount.Value)
                 .Select(c => new ClassInformationTable
                 {
                     Id = c.Id,
@@ -67,58 +77,73 @@ namespace Ceng382Week5.Pages
                 })
                 .ToList();
 
-            // Apply pagination
+            // Apply pagination to the filtered data
             DisplayClasses = FilteredClasses
                 .Skip((CurrentPage - 1) * PageSize)
                 .Take(PageSize)
                 .ToList();
-
-            if (EditId > 0)
-            {
-                ClassInfo = AllClasses.FirstOrDefault(c => c.Id == EditId) ?? new ClassInformationModel();
-            }
         }
 
-        public IActionResult OnPost()
+        public IActionResult OnPostAdd()
         {
-            if (Request.Form["handler"] == "Delete")
-            {
-                var id = int.Parse(Request.Form["id"]);
-                var item = _classes.FirstOrDefault(c => c.Id == id);
-                if (item != null) _classes.Remove(item);
-                TempData["Message"] = "Class deleted successfully!";
-                return RedirectToPage(new { 
-                    currentPage = CurrentPage,
-                    filterClassName = FilterClassName,
-                    filterStudentCount = FilterStudentCount
-                });
-            }
-
             if (!ModelState.IsValid)
             {
+                ApplyFiltersAndPagination(); // Apply filters before rendering the page again
+                ClassInfo.Id = _nextId++;
+            _classes.Add(ClassInfo);
+            TempData["Message"] = "Class added successfully!";
+
+            // Re-apply filters and pagination after adding
+            return RedirectToPage();
+            }
+
+            // Add new class
+            ClassInfo.Id = _nextId++;
+            _classes.Add(ClassInfo);
+            TempData["Message"] = "Class added successfully!";
+
+            // Re-apply filters and pagination after adding
+            return RedirectToPage();
+        }
+
+        public IActionResult OnPostEdit()
+        {
+            if (!ModelState.IsValid)
+            {
+                ApplyFiltersAndPagination(); // Apply filters before rendering the page again
                 return Page();
             }
 
-            switch (Request.Form["handler"])
+            // Edit class using the full class list (ignoring filters)
+            var existing = _classes.FirstOrDefault(c => c.Id == ClassInfo.Id);
+            if (existing != null)
             {
-                case "Add":
-                    ClassInfo.Id = _nextId++;
-                    _classes.Add(ClassInfo);
-                    TempData["Message"] = "Class added successfully!";
-                    break;
-                    
-                case "Edit":
-                    var existing = _classes.FirstOrDefault(c => c.Id == ClassInfo.Id);
-                    if (existing != null)
-                    {
-                        existing.ClassName = ClassInfo.ClassName;
-                        existing.StudentCount = ClassInfo.StudentCount;
-                        existing.Description = ClassInfo.Description;
-                        TempData["Message"] = "Class updated successfully!";
-                    }
-                    break;
+                existing.ClassName = ClassInfo.ClassName;
+                existing.StudentCount = ClassInfo.StudentCount;
+                existing.Description = ClassInfo.Description;
+                TempData["Message"] = "Class updated successfully!";
             }
 
+            // Re-apply filters and pagination after editing
+            ApplyFiltersAndPagination();
+            return RedirectToPage(new { 
+                currentPage = CurrentPage,
+                filterClassName = FilterClassName,
+                filterStudentCount = FilterStudentCount
+            });
+        }
+
+        public IActionResult OnPostDelete(int id)
+        {
+            var item = _classes.FirstOrDefault(c => c.Id == id);
+            if (item != null)
+            {
+                _classes.Remove(item);
+                TempData["Message"] = "Class deleted successfully!";
+            }
+
+            // Re-apply filters and pagination after deletion
+            ApplyFiltersAndPagination();
             return RedirectToPage(new { 
                 currentPage = CurrentPage,
                 filterClassName = FilterClassName,
