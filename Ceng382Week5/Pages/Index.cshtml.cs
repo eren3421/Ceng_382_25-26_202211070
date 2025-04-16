@@ -88,31 +88,31 @@ namespace Ceng382Week5.Pages
         {
             if (!ModelState.IsValid)
             {
-                ApplyFiltersAndPagination(); // Apply filters before rendering the page again
+                //return RedirectToPage();
                 ClassInfo.Id = _nextId++;
-            _classes.Add(ClassInfo);
-            TempData["Message"] = "Class added successfully!";
-
+                _classes.Add(ClassInfo);
+                TempData["Message"] = "Class added successfully!";
             // Re-apply filters and pagination after adding
-            return RedirectToPage();
+                return RedirectToPage();
             }
 
-            // Add new class
-            ClassInfo.Id = _nextId++;
-            _classes.Add(ClassInfo);
-            TempData["Message"] = "Class added successfully!";
+            /// Add new class
+                //ClassInfo.Id = _nextId++;
+                //_classes.Add(ClassInfo);
+                //TempData["Message"] = "Class added successfully!";
 
             // Re-apply filters and pagination after adding
-            return RedirectToPage();
+                return RedirectToPage();
         }
 
         public IActionResult OnPostEdit()
         {
-            if (!ModelState.IsValid)
+           /* if (!ModelState.IsValid)
             {
-                ApplyFiltersAndPagination(); // Apply filters before rendering the page again
+                //ApplyFiltersAndPagination(); // Apply filters before rendering the page again
                 return Page();
-            }
+                
+            }*/
 
             // Edit class using the full class list (ignoring filters)
             var existing = _classes.FirstOrDefault(c => c.Id == ClassInfo.Id);
