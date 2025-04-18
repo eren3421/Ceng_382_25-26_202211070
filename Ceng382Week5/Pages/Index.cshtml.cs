@@ -1,4 +1,5 @@
 using Ceng382Week5.Models;
+using Ceng382Week5.Helpers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System;
@@ -12,18 +13,18 @@ namespace Ceng382Week5.Pages
         private static List<ClassInformationModel> _classes = GenerateSampleData();
         private static int _nextId = _classes.Count + 1;
 
-        // Filter properties
+        // Filtering
         [BindProperty(SupportsGet = true)]
         public string FilterClassName { get; set; }
 
         [BindProperty(SupportsGet = true)]
         public int? FilterStudentCount { get; set; }
 
-        // Pagination properties
+        // Pagination
         [BindProperty(SupportsGet = true)]
         public int CurrentPage { get; set; } = 1;
         public int PageSize { get; set; } = 10;
-        public int TotalPages => (int)Math.Ceiling(decimal.Divide(FilteredClasses.Count, PageSize));
+        public int TotalPages => (int)Math.Ceiling((decimal)FilteredClasses.Count / PageSize);
 
         // Form binding
         [BindProperty]
@@ -32,52 +33,34 @@ namespace Ceng382Week5.Pages
         [BindProperty(SupportsGet = true)]
         public int EditId { get; set; }
 
-        // Display properties
-        public List<ClassInformationModel> AllClasses => _classes; // Use full list of classes
+        // Display Data
+        public List<ClassInformationModel> AllClasses => _classes;
         public List<ClassInformationTable> FilteredClasses { get; set; }
         public List<ClassInformationTable> DisplayClasses { get; set; }
 
-        private static List<ClassInformationModel> GenerateSampleData()
-        {
-            var random = new Random();
-            return Enumerable.Range(1, 100).Select(i => new ClassInformationModel
-            {
-                Id = i,
-                ClassName = $"Class {(i % 10) + 1}-{i}",
-                StudentCount = random.Next(1, 100),
-                Description = $"Sample class #{i}"
-            }).ToList();
-        }
-
         public void OnGet()
         {
-            ApplyFiltersAndPagination(); // Apply filters and pagination for displaying
+            ApplyFiltersAndPagination();
 
-            // Only get class from full list, independent of filters, when editing
             if (EditId > 0)
             {
                 ClassInfo = AllClasses.FirstOrDefault(c => c.Id == EditId) ?? new ClassInformationModel();
             }
         }
-
+        //<!-- I created this code by can you add pagnition and filter function to my page -->
         private void ApplyFiltersAndPagination()
         {
-            // Apply filters to the full class list for displaying in table
             FilteredClasses = AllClasses
-                .Where(c => string.IsNullOrEmpty(FilterClassName) || 
-                           c.ClassName.Contains(FilterClassName, StringComparison.OrdinalIgnoreCase))
-                .Where(c => !FilterStudentCount.HasValue || 
-                           c.StudentCount == FilterStudentCount.Value)
+                .Where(c => string.IsNullOrEmpty(FilterClassName) || c.ClassName.Contains(FilterClassName, StringComparison.OrdinalIgnoreCase))
+                .Where(c => !FilterStudentCount.HasValue || c.StudentCount == FilterStudentCount.Value)
                 .Select(c => new ClassInformationTable
                 {
                     Id = c.Id,
                     ClassName = c.ClassName,
                     StudentCount = c.StudentCount,
                     Description = c.Description
-                })
-                .ToList();
+                }).ToList();
 
-            // Apply pagination to the filtered data
             DisplayClasses = FilteredClasses
                 .Skip((CurrentPage - 1) * PageSize)
                 .Take(PageSize)
@@ -88,33 +71,21 @@ namespace Ceng382Week5.Pages
         {
             if (!ModelState.IsValid)
             {
-                //return RedirectToPage();
+                //return Page();
                 ClassInfo.Id = _nextId++;
                 _classes.Add(ClassInfo);
                 TempData["Message"] = "Class added successfully!";
-            // Re-apply filters and pagination after adding
                 return RedirectToPage();
             }
 
-            /// Add new class
-                //ClassInfo.Id = _nextId++;
-                //_classes.Add(ClassInfo);
-                //TempData["Message"] = "Class added successfully!";
-
-            // Re-apply filters and pagination after adding
-                return RedirectToPage();
+            /*ClassInfo.Id = _nextId++;
+            _classes.Add(ClassInfo);
+            TempData["Message"] = "Class added successfully!";*/
+            return RedirectToPage();
         }
 
         public IActionResult OnPostEdit()
         {
-           /* if (!ModelState.IsValid)
-            {
-                //ApplyFiltersAndPagination(); // Apply filters before rendering the page again
-                return Page();
-                
-            }*/
-
-            // Edit class using the full class list (ignoring filters)
             var existing = _classes.FirstOrDefault(c => c.Id == ClassInfo.Id);
             if (existing != null)
             {
@@ -124,9 +95,8 @@ namespace Ceng382Week5.Pages
                 TempData["Message"] = "Class updated successfully!";
             }
 
-            // Re-apply filters and pagination after editing
-            ApplyFiltersAndPagination();
-            return RedirectToPage(new { 
+            return RedirectToPage(new
+            {
                 currentPage = CurrentPage,
                 filterClassName = FilterClassName,
                 filterStudentCount = FilterStudentCount
@@ -142,13 +112,49 @@ namespace Ceng382Week5.Pages
                 TempData["Message"] = "Class deleted successfully!";
             }
 
-            // Re-apply filters and pagination after deletion
-            ApplyFiltersAndPagination();
-            return RedirectToPage(new { 
+            return RedirectToPage(new
+            {
                 currentPage = CurrentPage,
                 filterClassName = FilterClassName,
                 filterStudentCount = FilterStudentCount
             });
         }
+
+        // ✅ JSON Export
+        public JsonResult OnGetExportJson(bool filtered, string selectedColumns, string filterClassName, int? filterStudentCount, int currentPage = 1) //<!-- I created this by using chat gpt with can you add export function as json file and integrate to my project. -->
+        {
+            var selected = selectedColumns?.Split(',').ToList() ?? new List<string>();
+            int pageSize = 10;
+
+            var data = _classes
+                .Where(c => !filtered || string.IsNullOrEmpty(filterClassName) || c.ClassName.Contains(filterClassName, StringComparison.OrdinalIgnoreCase))
+                .Where(c => !filtered || !filterStudentCount.HasValue || c.StudentCount == filterStudentCount.Value)
+                .Select(c => new ClassInformationTable
+                {
+                    Id = c.Id,
+                    ClassName = c.ClassName,
+                    StudentCount = c.StudentCount,
+                    Description = c.Description // I created the inside by using chat gpt with can you merge the export all and filtered export functions.
+                })
+                .Skip((currentPage - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
+
+            var json = Utils.Instance.ExportToJson(data, selected);
+            return new JsonResult(json);
+        }
+
+        private static List<ClassInformationModel> GenerateSampleData()
+        {
+            var random = new Random();
+            return Enumerable.Range(1, 100).Select(i => new ClassInformationModel
+            {
+                Id = i,
+                ClassName = $"Class {(i % 10) + 1}-{i}",
+                StudentCount = random.Next(1, 100),
+                Description = $"Sample class #{i}"
+            }).ToList();
+        }
     }
 }
+// I genreated the week 6.pdfs functionality by using chat gpt with uploading the pdf and asking can you update my index file to according to week 6.pdf.

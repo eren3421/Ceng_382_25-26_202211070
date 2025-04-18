@@ -15,3 +15,4 @@ namespace Ceng382Week5.Models
         public string Description { get; set; }
     }
 }
+// I created this page by using ChatGPT with prompt "Create a ClassInformationTable class for my .net core project.

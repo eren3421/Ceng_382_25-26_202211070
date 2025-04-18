@@ -10,30 +10,30 @@
         <h2>@(Model.EditId > 0 ? "EDIT CLASS" : "ADD CLASS")</h2>
         <form method="post">
             <input type="hidden" asp-for="ClassInfo.Id" />
-            
+
             <div class="form-group">
                 <label asp-for="ClassInfo.ClassName"></label>
                 <input asp-for="ClassInfo.ClassName" class="form-control" />
                 <span asp-validation-for="ClassInfo.ClassName" class="text-danger"></span>
             </div>
-            
+
             <div class="form-group">
                 <label asp-for="ClassInfo.StudentCount"></label>
                 <input asp-for="ClassInfo.StudentCount" class="form-control" />
                 <span asp-validation-for="ClassInfo.StudentCount" class="text-danger"></span>
             </div>
-            
+
             <div class="form-group">
                 <label asp-for="ClassInfo.Description"></label>
                 <textarea asp-for="ClassInfo.Description" class="form-control"></textarea>
                 <span asp-validation-for="ClassInfo.Description" class="text-danger"></span>
             </div>
-            
-            <button type="submit" class="btn btn-primary" 
+
+            <button type="submit" class="btn btn-primary"
                     asp-page-handler="@(Model.EditId > 0 ? "Edit" : "Add")">
                 @(Model.EditId > 0 ? "UPDATE" : "ADD")
             </button>
-            
+
             @if (Model.EditId > 0)
             {
                 <a asp-page="./Index" class="btn btn-secondary">CANCEL</a>
@@ -44,7 +44,8 @@
     <!-- Table Column -->
     <div class="col">
         <h2>CLASS LIST</h2>
-        
+
+        <!-- Filtering -->
         <form method="get" class="filter-form">
             <div class="form-group">
                 <input asp-for="FilterClassName" placeholder="Class name" class="form-control" />
@@ -55,13 +56,14 @@
             <button type="submit" class="btn btn-primary">FILTER</button>
             <a asp-page="./Index" class="btn btn-secondary">RESET</a>
         </form>
-        
+
+        <!-- Table -->
         <table class="table">
             <thead>
                 <tr>
-                    <th>CLASS NAME</th>
-                    <th>STUDENTS</th>
-                    <th>DESCRIPTION</th>
+                    <th onclick="toggleColumn('ClassName', this)">CLASS NAME</th>
+                    <th onclick="toggleColumn('StudentCount', this)">STUDENTS</th>
+                    <th onclick="toggleColumn('Description', this)">DESCRIPTION</th> <!--I I created these parts by saying can you do the pagnitition without using the checkboxes like highlighting the column-->
                     <th>ACTIONS</th>
                 </tr>
             </thead>
@@ -73,12 +75,12 @@
                         <td>@item.StudentCount</td>
                         <td>@item.Description</td>
                         <td>
-                            <a asp-page="./Index" 
+                            <a asp-page="./Index"
                                asp-route-editId="@item.Id"
                                class="action-icon">✏️</a>
                             <form method="post" style="display:inline">
                                 <input type="hidden" name="id" value="@item.Id" />
-                                <button type="submit" asp-page-handler="Delete" 
+                                <button type="submit" asp-page-handler="Delete"
                                         class="btn btn-link action-icon"
                                         onclick="return confirm('Delete this class?')">🗑️</button>
                             </form>
@@ -88,32 +90,115 @@
             </tbody>
         </table>
 
+        <!-- Pagination -->
         @if (Model.TotalPages > 1)
         {
             <div class="pagination">
                 @if (Model.CurrentPage > 1)
                 {
-                    <a asp-page="./Index" 
+                    <a asp-page="./Index"
                        asp-route-currentPage="@(Model.CurrentPage - 1)"
+                       asp-route-filterClassName="@Model.FilterClassName"
+                       asp-route-filterStudentCount="@Model.FilterStudentCount"
                        class="btn btn-primary">Previous</a>
                 }
-                
+
                 @for (int i = 1; i <= Model.TotalPages; i++)
                 {
-                    <a asp-page="./Index" 
+                    <a asp-page="./Index"
                        asp-route-currentPage="@i"
+                       asp-route-filterClassName="@Model.FilterClassName"
+                       asp-route-filterStudentCount="@Model.FilterStudentCount"
                        class="btn @(i == Model.CurrentPage ? "btn-primary" : "btn-secondary")">@i</a>
                 }
-                
+
                 @if (Model.CurrentPage < Model.TotalPages)
                 {
-                    <a asp-page="./Index" 
+                    <a asp-page="./Index"
                        asp-route-currentPage="@(Model.CurrentPage + 1)"
+                       asp-route-filterClassName="@Model.FilterClassName"
+                       asp-route-filterStudentCount="@Model.FilterStudentCount"
                        class="btn btn-primary">Next</a>
                 }
             </div>
         }
+        <!-- I created this code by can you add pagnition and filter function to my page -->
+        <!-- JSON Export -->
+        <hr />
+        <h4>Export JSON</h4>
+
+        <div class="form-group">
+            <button type="button" class="btn btn-primary" onclick="exportSmart()">Export JSON</button> <!--I I used chat gpt to with can you merge the export all and filtered export functionality at one export buuttton -->
+            <button type="button" class="btn btn-warning" onclick="downloadJson()">Download JSON</button> <!--I I used chat gpt with can you add the functionality that downloads exported classes-->
+        </div>
+
+        <pre id="exportedJson" style="white-space: pre-wrap; background-color: #f0f0f0; padding: 10px; border-radius: 5px;"></pre>
     </div>
 </div>
 
 <partial name="_ValidationScriptsPartial" />
+
+@section Scripts {
+    <script>
+        let selectedColumnsSet = new Set();
+        let lastExportedJson = "";
+
+        function toggleColumn(column, element) {
+            if (selectedColumnsSet.has(column)) {
+                selectedColumnsSet.delete(column);
+                element.style.backgroundColor = "";
+            } else {
+                selectedColumnsSet.add(column);
+                element.style.backgroundColor = "#d1ecf1";
+            }
+        }
+
+        function exportSmart() {
+            const filterClassName = document.querySelector('input[name="FilterClassName"]').value.trim();
+            const filterStudentCount = document.querySelector('input[name="FilterStudentCount"]').value.trim();
+            const hasFilter = filterClassName !== "" || filterStudentCount !== "";
+            exportJson(hasFilter);
+        }
+
+        function exportJson(filtered) {
+            const selectedColumns = Array.from(selectedColumnsSet);
+            const filterClassName = document.querySelector('input[name="FilterClassName"]').value;
+            const filterStudentCount = document.querySelector('input[name="FilterStudentCount"]').value;
+            const currentPage = @Model.CurrentPage;
+
+            const url = `/Index?handler=ExportJson` +
+                        `&filtered=${filtered}` +
+                        `&selectedColumns=${selectedColumns.join(',')}` +
+                        `&filterClassName=${encodeURIComponent(filterClassName)}` +
+                        `&filterStudentCount=${encodeURIComponent(filterStudentCount)}` +
+                        `&currentPage=${currentPage}`;
+
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    const formatted = typeof data === 'string' ? data : JSON.stringify(data, null, 2);
+                    lastExportedJson = formatted;
+                    document.getElementById('exportedJson').textContent = formatted;
+                })
+                .catch(error => {
+                    console.error("Export failed", error);
+                });
+        }
+
+        function downloadJson() {
+            if (!lastExportedJson) {
+                alert("Please export first before downloading.");
+                return;
+            }
+
+            const blob = new Blob([lastExportedJson], { type: "application/json" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = "classes.json";
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+    </script>
+}
+<!--I I used chat gpt with can you add the functionality that downloads exported classes-->

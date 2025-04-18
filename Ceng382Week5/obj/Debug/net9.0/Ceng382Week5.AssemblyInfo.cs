@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ceng382Week5")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ae87e0368a7ea84fc9a98b71b87ad63ff28fae9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0cbf1eef335b60ca426f154d403cbf4c514947a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ceng382Week5")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ceng382Week5")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
