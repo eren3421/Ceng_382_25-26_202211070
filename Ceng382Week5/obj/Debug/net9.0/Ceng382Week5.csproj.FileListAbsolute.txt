@@ -96,3 +96,4 @@ C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5
 C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\Ceng382Week5.pdb
 C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\Ceng382Week5.genruntimeconfig.cache
 C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\ref\Ceng382Week5.dll
+C:\Users\turkm\OneDrive\Masaüstü\CENG382\Ceng_382_25-26_202211070\Ceng382Week5\obj\Debug\net9.0\compressed\5674xts8el-k1nqlajm9x.gz

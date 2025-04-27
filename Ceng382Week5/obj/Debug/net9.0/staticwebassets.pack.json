@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\data\\users.json",
+      "PackagePath": "staticwebassets\\data\\users.json"
+    },
+    {
       "Id": "C:\\Users\\turkm\\OneDrive\\Masaüstü\\CENG382\\Ceng_382_25-26_202211070\\Ceng382Week5\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

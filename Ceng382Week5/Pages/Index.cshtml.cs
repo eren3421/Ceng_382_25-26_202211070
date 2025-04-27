@@ -40,6 +40,11 @@ namespace Ceng382Week5.Pages
 
         public void OnGet()
         {
+            if (!IsAuthenticated())
+            {
+                Response.Redirect("/Login");
+                return;
+            }
             ApplyFiltersAndPagination();
 
             if (EditId > 0)
@@ -48,6 +53,24 @@ namespace Ceng382Week5.Pages
             }
         }
         //<!-- I created this code by can you add pagnition and filter function to my page -->
+        private bool IsAuthenticated()
+        {
+            var sessionUsername = HttpContext.Session.GetString("username");
+            var sessionToken = HttpContext.Session.GetString("token");
+            var sessionId = HttpContext.Session.GetString("session_id");
+
+            var cookieUsername = Request.Cookies["username"];
+            var cookieToken = Request.Cookies["token"];
+            var cookieSessionId = Request.Cookies["session_id"];
+
+            return !string.IsNullOrEmpty(sessionUsername) &&
+                   !string.IsNullOrEmpty(sessionToken) &&
+                   !string.IsNullOrEmpty(sessionId) &&
+                   sessionUsername == cookieUsername &&
+                   sessionToken == cookieToken &&
+                   sessionId == cookieSessionId;
+        }
+        // I created this code by asking gpt can you genereate session and cookie for my page according to pdf.
         private void ApplyFiltersAndPagination()
         {
             FilteredClasses = AllClasses
