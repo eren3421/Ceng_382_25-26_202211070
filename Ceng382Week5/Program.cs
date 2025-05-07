@@ -1,7 +1,15 @@
+using Microsoft.EntityFrameworkCore; // ekle
+using Ceng382Week5.Data;            // DbContext için ekle
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+// ✅ EF Core için DbContext servisini ekliyoruz:
+builder.Services.AddDbContext<SchoolDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolDbConnection")));
+
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30);
@@ -19,13 +27,13 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles(); // eksikse bunu da koy!
+app.UseStaticFiles();       // eksikti, ekledin çok iyi!
 app.UseRouting();
 
-app.UseSession();    // ✨ ROUTINGDEN SONRA MUTLAKA
+app.UseSession();           // MUTLAKA routing’den sonra gelmeli
 app.UseAuthorization();
 
-// BAŞTA GİRİŞ ZORUNLU İÇİN:
+// Giriş yapmamış kullanıcıyı /Login'e yönlendir
 app.Use(async (context, next) =>
 {
     var path = context.Request.Path.ToString().ToLower();

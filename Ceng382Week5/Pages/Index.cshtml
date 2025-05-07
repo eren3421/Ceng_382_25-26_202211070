@@ -12,15 +12,15 @@
             <input type="hidden" asp-for="ClassInfo.Id" />
 
             <div class="form-group">
-                <label asp-for="ClassInfo.ClassName"></label>
-                <input asp-for="ClassInfo.ClassName" class="form-control" />
-                <span asp-validation-for="ClassInfo.ClassName" class="text-danger"></span>
+                <label asp-for="ClassInfo.Name"></label>
+                <input asp-for="ClassInfo.Name" class="form-control" />
+                <span asp-validation-for="ClassInfo.Name" class="text-danger"></span>
             </div>
 
             <div class="form-group">
-                <label asp-for="ClassInfo.StudentCount"></label>
-                <input asp-for="ClassInfo.StudentCount" class="form-control" />
-                <span asp-validation-for="ClassInfo.StudentCount" class="text-danger"></span>
+                <label asp-for="ClassInfo.PersonCount"></label>
+                <input asp-for="ClassInfo.PersonCount" class="form-control" />
+                <span asp-validation-for="ClassInfo.PersonCount" class="text-danger"></span>
             </div>
 
             <div class="form-group">
@@ -44,8 +44,8 @@
     <!-- Table Column -->
     <div class="col">
         <form method="get" asp-page="/Logout" style="display:inline;">
-    <button type="submit" class="btn btn-danger">Logout</button>
-</form>
+            <button type="submit" class="btn btn-danger">Logout</button>
+        </form>
         <h2>CLASS LIST</h2>
 
         <!-- Filtering -->
@@ -64,9 +64,11 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th onclick="toggleColumn('ClassName', this)">CLASS NAME</th>
-                    <th onclick="toggleColumn('StudentCount', this)">STUDENTS</th>
-                    <th onclick="toggleColumn('Description', this)">DESCRIPTION</th> <!--I I created these parts by saying can you do the pagnitition without using the checkboxes like highlighting the column-->
+                    <th><Isindex><Isindex> ID</Isindex></Isindex></th>
+                    <th onclick="toggleColumn('Name', this)">CLASS NAME</th>
+                    <th onclick="toggleColumn('PersonCount', this)">STUDENTS</th>
+                    <th onclick="toggleColumn('Description', this)">DESCRIPTION</th>
+                    <th><Isindex><Isindex> Active</Isindex></Isindex></th>
                     <th>ACTIONS</th>
                 </tr>
             </thead>
@@ -74,9 +76,11 @@
                 @foreach (var item in Model.DisplayClasses)
                 {
                     <tr>
-                        <td>@item.ClassName</td>
-                        <td>@item.StudentCount</td>
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td>@item.PersonCount</td>
                         <td>@item.Description</td>
+                        <td>@(item.IsActive ? "Yes" : "No")</td>
                         <td>
                             <a asp-page="./Index"
                                asp-route-editId="@item.Id"
@@ -125,14 +129,14 @@
                 }
             </div>
         }
-        <!-- I created this code by can you add pagnition and filter function to my page -->
+
         <!-- JSON Export -->
         <hr />
         <h4>Export JSON</h4>
 
         <div class="form-group">
-            <button type="button" class="btn btn-primary" onclick="exportSmart()">Export JSON</button> <!--I I used chat gpt to with can you merge the export all and filtered export functionality at one export buuttton -->
-            <button type="button" class="btn btn-warning" onclick="downloadJson()">Download JSON</button> <!--I I used chat gpt with can you add the functionality that downloads exported classes-->
+            <button type="button" class="btn btn-primary" onclick="exportSmart()">Export JSON</button>
+            <button type="button" class="btn btn-warning" onclick="downloadJson()">Download JSON</button>
         </div>
 
         <pre id="exportedJson" style="white-space: pre-wrap; background-color: #f0f0f0; padding: 10px; border-radius: 5px;"></pre>
@@ -204,4 +208,3 @@
         }
     </script>
 }
-<!--I I used chat gpt with can you add the functionality that downloads exported classes-->
